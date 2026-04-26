@@ -75,7 +75,7 @@
 
 .boxone {
      height: 140px;
-    font-size: 30px;
+     font-size: 30px;
 } 
 
 .boxtwo {
@@ -105,15 +105,15 @@
     display: flex;
     align-items: center;
     gap: 25px;
-    margin: 17px;
-    height: 120px;
+    margin: 5px 17px 7px;
+    height: 115px;
 }
 
 .active-btn {
     background-color: transparent ;
     color: white;
     border: 1px solid;
-    padding: 5px 15px;
+    padding: 5px 14px;
     border-radius: 20px;
     font-size: 25px;
     cursor: pointer;
@@ -129,4 +129,34 @@
 .categories :hover {
     background-color: #ffd700;
     color: black;
+}
+
+.blog-post {
+    margin-left: 10px;
+    height: 110px;
+    padding: 5px 14px;
+    font-size: 28px;
+}
+
+.blog-post:hover {
+    color: #ffd700;
+}
+
+.blog-post2 {
+    margin-left: 10px;
+    height: 75px;
+    padding: 5px 14px;
+    font-size: 28px;
+}
+
+.blog-post3 {
+    margin-left: 10px;
+    height: 150px;
+    padding: 5px 14px;
+    font-size: 20px;
+}
+
+.signup-box {
+    border-radius: 12px;
+  width: 750px;
 }
